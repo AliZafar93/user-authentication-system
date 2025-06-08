@@ -1,0 +1,101 @@
+.tabularview-container {
+  background: #c7ded6;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.tabularview-toolbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.tabularview-btn {
+  background: #e6f0ec;
+  border: 1px solid #b2b2b2;
+  border-radius: 4px;
+  padding: 4px 12px;
+  margin-right: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.delete-btn{
+ background: #dc1818;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 4px 12px;
+  margin-right: 6px;
+  font-weight: 500;
+  cursor: pointer; 
+  color: white;
+}
+.tabularview-btn:last-child {
+  margin-right: 0;
+}
+
+.tabularview-search-label {
+  font-weight: 500;
+  margin-right: 4px;
+}
+
+.tabularview-search-input {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  height: 28px;
+  padding: 0 8px;
+}
+
+.tabularview-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #c7ded6;
+}
+
+.tabularview-th {
+  background: #a9c7bb;
+  padding: 8px;
+  border: 1px solid #b2b2b2;
+  font-weight: 700;
+  text-align: left;
+}
+
+.tabularview-tr-even {
+  background: #e6f0ec;
+}
+
+.tabularview-tr-odd {
+  background: #c7ded6;
+}
+
+.tabularview-td {
+  border: 1px solid #b2b2b2;
+  padding: 8px;
+}
+
+.tabularview-update-btn {
+  background: #fff;
+  border: 1px solid #888;
+  border-radius: 4px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.tabularview-pagination {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.tabularview-footer {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabularview-no-data {
+  text-align: center;
+  padding: 16px;
+}
